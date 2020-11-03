@@ -4,8 +4,8 @@ BEGIN{ FS="\t"; v1 ; v2 }
 	if($2~"Colorado")
 	{ 
 		print $0;
-		if($8~)
-		if($8~)
+		if($8~"Democrat")
+		if($8~"Republican")
 	}
         if($2~"Florida")
 	{
